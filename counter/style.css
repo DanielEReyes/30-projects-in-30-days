@@ -1,0 +1,49 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: azure;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+
+.btn {
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s linear;
+    margin: 10px;
+    background: transparent;
+    outline: none;
+    
+    
+    
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+#value {
+    font-size: 60px;
+    font-weight: bold;
+}
